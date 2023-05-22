@@ -1,11 +1,6 @@
-name: linkcheck
+name: linkcheck-manual
 
-on:
-  push:
-    branches: [master]
-  pull_request:
-    paths:
-      - 'docs/**'
+on: workflow_dispatch
 
 env:
   POETRY_VERSION: "1.4.2"
